@@ -1,0 +1,29 @@
+{
+    "name": "tennis-calculator-estimateone",
+    "version": "0.0.1",
+    "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest --runInBand --coverage",
+        "lint": "eslint ./",
+        "lint-fix": "npm run lint -- --fix"
+    },
+    "keywords": [],
+    "author": "Jasper Pajar",
+    "devDependencies": {
+        "@babel/core": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "babel-jest": "^27.3.1",
+        "eslint": "^7.32.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-jest": "24.1.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.1",
+        "jest": "^27.3.1",
+        "jest-extended": "0.11.5"
+    },
+    "dependencies": {}
+}
